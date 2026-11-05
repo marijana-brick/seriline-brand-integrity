@@ -66,4 +66,4 @@ The highest-value next additions are the official vector logo, color codes, typo
 
 ## Provenance
 
-The skill follows an audit → direction → iterative refinement workflow inspired by [Unslop](https://github.com/heydamir/unslop). This is a separate, Seriline-focused implementation. The public brand guidelines are an interpretation of Seriline's published materials, **not a document issued or endorsed by Seriline's brand team**.
+The public brand guidelines are an interpretation of Seriline's published materials, **not a document issued or endorsed by Seriline's brand team**.
