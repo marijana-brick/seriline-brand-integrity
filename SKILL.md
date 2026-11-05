@@ -82,5 +82,3 @@ Score 0 (absent), 1 (weak), 2 (solid) on: brand evidence, distinctive craft, aud
 - `references/tool-playbooks.md` — medium-specific rules for slides, documents, UI, email, graphics and dashboards.
 - `references/brand-intake.md` — how to extract a brand system from real assets without inventing it.
 
-## Attribution
-Inspired by the **audit → direction → iterative polish** pattern in [Unslop by Damir Sokolovsky](https://github.com/heydamir/unslop) (CC BY 4.0). This is a separately authored cross-tool brand-governance skill, not a copy of Unslop's source.
