@@ -9,7 +9,7 @@ description: "Create, edit, audit and polish Seriline-branded output across tool
 Make every artifact feel deliberately produced for **Seriline**, not by a generic assistant. Brand fidelity is not a coat of paint: preserve the company's strategy, distinctive visual grammar, language, audience, and established product patterns. A well-designed result can be restrained, expressive, or unconventional. Do not confuse generic minimalism with good design.
 
 ## Non-negotiables
-1. **Evidence before invention.** Use Seriline's actual brand book, design system, source files, approved templates, product UI, published materials and copy guidance. Consult `references/brand-profile.md`. Never invent hex codes, fonts, logos, slogans, testimonials, statistics or permissions and present them as official.
+1. **Evidence before invention.** Use Seriline's actual brand book, design system, source files, approved templates, product UI, published materials and copy guidance. Consult `references/brand-profile.md` and `references/seriline-public-brand-guidelines.md`. Never invent hex codes, fonts, logos, slogans, testimonials, statistics or permissions and present them as official.
 2. **Respect source hierarchy.** Explicit task instructions > current approved brand system > approved channel-specific templates > recent first-party examples > inferred patterns. If sources conflict, surface the conflict and prefer the more authoritative/recent evidence. User-approved intentional departures override stylistic defaults, not factual or safety requirements.
 3. **Tool-agnostic, artifact-specific.** Work in the tools available for the task. Do not claim to have inspected Figma, Canva, Drive, Notion, a CMS, repositories or asset libraries without access. Preserve the format, editability, interactions and functional requirements of the requested artifact.
 4. **No style hallucination.** If the actual brand has not been provided, do not impersonate it. Use a clearly labeled provisional direction based on confirmed product context, and mark all inferred choices for replacement. Ask only for a genuinely blocking asset; otherwise deliver a useful provisional draft.
@@ -24,7 +24,7 @@ Record, briefly and internally: deliverable and file type; audience; channel; pu
 ### 2. Retrieve the actual brand
 Look for the most authoritative information accessible: linked brand guidelines, local `brand-profile.md`, approved design tokens, templates, fonts, visual assets, product screenshots, published pages, editorial examples, and recent decisions. If connectors exist, search only relevant authorized sources. Distinguish **CONFIRMED**, **INFERRED**, and **UNKNOWN**. Do not treat a competitor, stock layout, or arbitrary AI-generated sample as company identity.
 
-Use `references/brand-profile.md` as Seriline's evidence-labeled public-source baseline, then replace assumptions with approved internal assets when provided. Consult `references/seriline-review.md` for product/trust-specific checks. Use `references/tool-playbooks.md` for output-type checks. If the profile is blank, infer only the minimum viable direction from evidence, label it provisional and do not output invented 'official' tokens.
+Use `references/seriline-public-brand-guidelines.md` for the observed online brand and its practical creative translation. Use `references/brand-profile.md` as Seriline's evidence-labeled public-source baseline, then replace assumptions with approved internal assets when provided. Consult `references/seriline-review.md` for product/trust-specific checks. Use `references/tool-playbooks.md` for output-type checks. If the profile is blank, infer only the minimum viable direction from evidence, label it provisional and do not output invented 'official' tokens.
 
 ### 3. Audit before changing
 For revisions, locate tangible signs of generic output and point to their positions, e.g. slide 3 title, hero CTA, component name, paragraph, card or image. Check:
@@ -76,6 +76,7 @@ Deliver the actual requested artifact. Mention only material design choices, wha
 Score 0 (absent), 1 (weak), 2 (solid) on: brand evidence, distinctive craft, audience specificity, substance, consistency, usability/accessibility, native-format QA. Any score of 0 in truth, usability, or evidence for supposedly official brand elements is blocking. Do not fabricate numeric scores without inspecting the work.
 
 ## Related references
+- `references/seriline-public-brand-guidelines.md` — public-source visual, verbal and multi-channel guidance; observed vs recommended vs unverified.
 - `references/seriline-review.md` — Seriline-specific product, security and trust QA gates.
 - `references/brand-profile.md` — company-specific inputs; fill this first for repeat use.
 - `references/tool-playbooks.md` — medium-specific rules for slides, documents, UI, email, graphics and dashboards.
